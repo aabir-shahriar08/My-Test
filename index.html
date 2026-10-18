@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sahriar Abir — Computer Science and Engineering student portfolio.">
+  <title>Sahriar Abir | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="code-mark">&lt;/&gt;</span> Sahriar <b>Abir</b></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+      <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle light mode">☾</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero wrap">
+      <div class="hero-copy">
+        <span class="pill"><i></i> Computer Science Student</span>
+        <p class="hello">Hi, I’m</p>
+        <h1>Sahriar <span>Abir</span></h1>
+        <h2>Computer Science &amp; Engineering Student</h2>
+        <p class="intro">I am passionate about programming and problem solving. Currently, I am learning and improving my skills in C programming and exploring the world of technology.</p>
+        <div class="actions"><a class="btn primary" href="#about">♟ &nbsp; About Me</a><a class="btn outline" href="#" id="cvButton">⇩ &nbsp; Download CV</a></div>
+        <div class="socials">
+          <a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noreferrer">◉</a>
+          <a href="https://linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noreferrer">in</a>
+          <a href="mailto:sahriarabir@gmail.com" aria-label="Email">✉</a>
+        </div>
+      </div>
+      <div class="hero-photo"><div class="glow"></div><img src="assets/profile.jpg" alt="Portrait crop from the supplied portfolio reference"></div>
+    </section>
+
+    <section id="about" class="wrap about-grid section">
+      <div><h3><span>♟</span> About Me</h3><p>I am Sahriar Abir, a passionate and dedicated Computer Science and Engineering student at the University of Barishal. I love solving problems, building projects, and learning new technologies. My goal is to use technology to create innovative solutions that make a difference.</p></div>
+      <div class="info panel">
+        <div><b>▦</b><strong>Name</strong><span>Sahriar Abir</span></div>
+        <div><b>⚑</b><strong>University</strong><span>University of Barishal</span></div>
+        <div><b>▤</b><strong>Department</strong><span>Computer Science and Engineering</span></div>
+        <div><b>♦</b><strong>Location</strong><span>Barishal, Bangladesh</span></div>
+      </div>
+    </section>
+
+    <section class="wrap two-grid section">
+      <article id="education" class="panel card"><h3><span>🎓</span> Education</h3><div class="timeline"><h4>University of Barishal</h4><a>Bachelor of Science in CSE</a><small>2024 – Present</small><p>Pursuing my degree with a strong focus on programming, algorithms, data structures, and software development.</p></div></article>
+      <article id="skills" class="panel card"><h3><span>&lt;/&gt;</span> Skills</h3><div class="skill"><div class="c-logo">C</div><div class="skill-detail"><div><b>C Programming</b><span>85%</span></div><div class="bar"><i style="width:85%"></i></div></div></div><div class="traits"><span>🧩 Problem Solving</span><span>🧠 Logical Thinking</span><span>📖 Continuous Learning</span></div></article>
+    </section>
+
+    <section id="projects" class="wrap panel projects section">
+      <div class="section-head"><h3><span>🚀</span> Projects</h3><a class="btn outline small" href="https://github.com/" target="_blank" rel="noreferrer">View All Projects&nbsp; →</a></div>
+      <div class="project-grid">
+        <article class="project"><div class="project-icon blue">&lt;/&gt;</div><div><h4>C Program Collection</h4><p>A collection of useful C programs for beginners to practice and understand fundamentals.</p></div><footer><span>C</span><a href="https://github.com/" aria-label="Project on GitHub">◉</a></footer></article>
+        <article class="project"><div class="project-icon green">▦</div><div><h4>Calculator in C</h4><p>A simple calculator program built in C language to perform basic arithmetic operations.</p></div><footer><span>C</span><a href="https://github.com/" aria-label="Project on GitHub">◉</a></footer></article>
+        <article class="project"><div class="project-icon purple">☑</div><div><h4>To-Do List in C</h4><p>A menu-driven To-Do List application in C to add, view and manage tasks.</p></div><footer><span>C</span><a href="https://github.com/" aria-label="Project on GitHub">◉</a></footer></article>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap panel contact section">
+      <div class="contact-info"><h3><span>➤</span> Contact Me</h3><p>Feel free to reach out to me!</p><p>✉ &nbsp; sahriarabir@gmail.com</p><p>☎ &nbsp; +880 1XXX-XXXXXX</p><p>♦ &nbsp; Barishal, Bangladesh</p></div>
+      <form id="contactForm"><div class="form-row"><input name="name" placeholder="Your Name" required><input type="email" name="email" placeholder="Your Email" required></div><textarea name="message" placeholder="Your Message" required></textarea><button class="btn primary" type="submit">➤ &nbsp; Send Message</button><p class="form-note" id="formNote" aria-live="polite"></p></form>
+    </section>
+  </main>
+  <footer class="footer"><span>© 2024 <a href="#home">Sahriar Abir</a>. All Rights Reserved.</span><span>Made with ❤️ and <b>C</b></span></footer>
+  <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+</body>
+</html>
